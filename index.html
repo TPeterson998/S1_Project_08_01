@@ -48,12 +48,16 @@
                   We provide more than fast access. Take advantage of our 24/7 customer support
                   (personal help is <em>always</em> on the line), free security tools, email accounts
                   for the whole family, and exclusive online content.</p>
+            <!-- This is the table -->
             <table id="pricing">
+                  <!-- These are the column groups so I can target columns in groups -->
                   <colgroup>
                         <col id="firstCol">
-                        <col id="dataCols" span"4">
+                        <col class="dataCols" span"4">
                   </colgroup>
+                  <!-- This is the first of the row groups -->
                   <thead>
+                        <!-- This is the first two rows in the table with the first cell spaning over both of the rows -->
                         <tr>
                               <th rowspan="2">Select a Plan</th>
                               <th>Starter</th>
@@ -68,7 +72,9 @@
                               <th>$69.95 <br>per month</th>
                         </tr>
                   </thead>
+                  <!-- This is the second row group -->
                   <tfoot>
+                        <!-- This is the last row in the table and is programed before the middle to speed up the rendering process -->
                         <tr>
                               <th>Summary</th>
                               <td>Just the speed you need to send emails, download map directions, and search the
@@ -86,7 +92,9 @@
                                     fast data delivery.</td>
                         </tr>
                   </tfoot>
+                  <!-- This is the third and final row group -->
                   <tbody>
+                        <!-- These are the middle 5 rows of the table -->
                         <tr>
                               <th>Download Speed</th>
                               <td>3 Mbps</td>
